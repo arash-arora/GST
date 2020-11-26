@@ -1,0 +1,167 @@
+body{
+  font-size: 2em;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #28abb9;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #292929;
+}
+.container{
+  height: 90px;
+  font-family: 'Mulish', sans-serif;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+.navbar-brand{
+  margin-left: 110px;
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Carter One',cursive;
+}
+.navbar h2{
+  margin-top: 30px;
+
+  cursor: pointer;
+}
+.navbar ul{
+  margin-right: 50px;
+  color: white;
+  margin-top: 18px;
+  padding-left: 70px;
+  font-size: 18px;
+}
+.navbar li{
+  display: inline-block;
+  padding-right: 8px;
+}
+.nav-links{
+  color: white;
+  padding: 4px 6px;
+}
+.nav-links:hover{
+  color: black;
+  background-color:#d2d3c9;
+  border-radius: 3px;
+}
+
+
+.mid-container{
+  font-size: 36px;;
+  position: relative;
+  height: 480px;
+  color: #e8e332;
+  font-family: 'Carter One',cursive;
+}
+.content{
+  position: absolute;
+  left: 100px;
+}
+.content ul{
+  font-size: 1.3rem;
+  padding-left: 20px;
+  list-style-type: circle;
+  color: white;
+}
+.image{
+  display: flex;
+  float: right;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  align-items: center;
+  background-color: #e8e349;
+  margin-right: 150px;
+}
+.image img{
+  width: 100%;
+  vertical-align: center;
+  border-style: none;
+}
+
+
+.bottom-container{
+  font-size: 20px;
+  line-height: 25px;
+  font-family: 'Mulish', sans-serif;
+  position: relative;
+  width: 100%;
+  top: 50px;
+  height: 430px;
+  color: white;
+  background-color: #13072d
+}
+
+.cont{
+  position: absolute;
+  left: 130px;
+}
+.desc{
+  width: 450px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.links{
+  position: absolute;
+  right: 380px;
+}
+.links ul{
+  list-style-type: none;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.links li{
+  padding: 5px;
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+.links a{
+  color: #ff9800;
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 2px;
+}
+.links a:hover{
+  background-color: black;
+  color: white;
+}
+
+.pay-mode{
+  position: absolute;
+  right: 100px;
+  width: 190px;
+  font-size: 1rem;
+  top: 30px;
+}
+.pay-mode h4{
+  font-size: 20px;
+}
+.pay-mode img{
+  width: 100%;
+}
+
+
+.bottom{
+  position: relative;
+  top: 18px;
+  background-color: #f3983e;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #292929;
+  font-family: 'Mulish', sans-serif;
+}
+.bottom p{
+  padding: 12px 148px 12px 120px;
+}
