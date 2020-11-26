@@ -111,7 +111,7 @@ hr{
 
 .cont{
   position: absolute;
-  left: 130px;
+  left: 100px;
 }
 .desc{
   width: 450px;
@@ -171,7 +171,7 @@ hr{
   font-family: 'Mulish', sans-serif;
 }
 .bottom p{
-  padding: 12px 148px 12px 130px;
+  padding: 12px 148px 12px 100px;
 }
 
 
